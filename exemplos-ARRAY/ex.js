@@ -44,3 +44,9 @@ console.log (cidades);
 let paises = ["Brasil", "Argentina", "Chile"];
 paises.unshift ("Uruguai");
 console.log (paises);
+
+// MOSTRANDO TODOS OS ELEMENTOS DO ARRAY COM FOR
+let frutas1 = ["maça", "banana", "laranja", "uva"]
+for (let i = 0; i < frutas.length; i++) {
+    console.log(frutas[i]);
+}
